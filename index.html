@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLO</title>
+    <style>
+       body {
+        text-align: center;
+        background-color: rgb(180, 200, 255);
+       }
+       h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+       }
+       h4 {
+        font-family: cursive;
+       }
+       .div1, .div2 {
+        border-radius: 5px;
+       }
+        .div1 {
+        background-color: azure;
+        max-height: 300px; /* Limit the height of div1 */
+        overflow-y: auto;  /* Enable vertical scrolling */
+        padding: 20px;
+        /* text-align: center;  */
+    }
+       .div2 {
+        background-color: black;
+       }
+       .container1 {
+          display: flex;           
+          justify-content: center; 
+       }
+       .d1, .d2, .d3 {
+          flex: 1;   
+          width: 50%;          
+          padding: 10px;
+          box-sizing: border-box;
+          height: 150px; 
+       }
+       .container {
+          display: flex;           
+          justify-content: center; 
+          gap: 20px;               /* Adds space between the divs */
+       }
+       .div1, .div2 {
+          flex: 1;   
+          width: 50%;          
+          padding: 10px;
+          box-sizing: border-box;
+          height: 300px; 
+       }
+       .container2, .container3 {
+          display: flex;           
+          justify-content: center;
+          gap: 30px;  
+          color: azure;
+       }
+       .div4, .div5, .div6, .div7 {
+          flex: 1;   
+          width: 50%;          
+          padding: 10px;
+          box-sizing: border-box;
+          height: 150px;
+          transition: transform 0.8s ease;
+          background-color: #333; 
+          border-radius: 10px;
+       }
+       .div4:hover, .div5:hover, .div6:hover, .div7:hover {
+          transform: scale(1.07);
+          cursor: pointer;
+       }
+       ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+       }
+       li {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 10px 10px;
+          text-decoration: none;
+          float: left;
+       }
+       li:hover {
+          background-color: #111;
+       }
+       li a {
+  display: block;
+  color: white; /* Set the color of the links */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Remove the underline from links */
+}
+
+li a:hover {
+  background-color: #111; /* Background color on hover */
+}
+       /* footer {
+          text-align: center;
+          padding: 20px;
+          background-color: #333;
+          color: white;
+       } */
+
+       footer a {
+          margin: 0 10px;
+       }
+       footer img {
+          width: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="d3"></div>
+        <div class="d1">
+            <h1>POLO</h1>
+            <h4>Style is everything...</h4>
+        </div>
+        <div class="d2"></div>
+    </div>
+    
+    
+    
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Your orders</a></li>
+        <li><a href="#">Place an order</a></li>
+        <li><a href="#">Sell an old shirt</a></li>
+        <li><a href="#">Connect with us</a></li>
+    </ul>
+    
+    <br>
+    
+    <div class="container">
+        <div class="div1">
+            <h2>Our company's details</h2>
+            <p>Founded in 2004, POLO has evolved from a humble T-shirt seller into a global brand known for quality, comfort, and customer satisfaction. We started with a simple idea: to create clothing that not only looks great but also feels great, giving our customers confidence in their everyday wear.
+
+Over the years, we’ve expanded our product line to include a wide range of styles, fabrics, and designs. From casual wear to semi-formal, our T-shirts are crafted to suit every occasion and every customer’s unique taste.
+<br><br>
+Our Mission:
+At POLO, our mission is simple: “Your comfort, our priority.” We believe that clothing is more than just fabric—it's a way to express yourself, stay comfortable, and feel confident. With customer comfort at the forefront, we ensure that every garment is made from high-quality, breathable materials, designed to last through both trends and seasons.
+<br><br>
+Our Growth Journey:
+What started as a small, local business has now become a global brand. We've:
+
+Expanded internationally, shipping to over 50 countries worldwide.
+Partnered with top fashion designers to create unique collections each season.
+Opened over 200 stores across major cities globally, while growing a massive online presence.<br><br>
+Our Values:
+Sustainability: We are committed to eco-friendly practices. From sourcing organic cotton to reducing waste, we believe in doing business that benefits both our customers and the environment.
+Innovation: We are constantly exploring new technologies and materials to enhance the quality and performance of our products.
+Customer-Centric: We listen to our customers, and their feedback shapes our designs and services.
+<br><br>
+Why Choose Us?
+Durable, High-Quality Fabrics: Our T-shirts are made from 100% cotton, ensuring breathability, durability, and comfort.
+Affordable Fashion: We strive to keep prices competitive without compromising on quality.
+Customizable Options: We offer a range of customization options to help customers create their own unique clothing styles, whether for personal use, corporate events, or special occasions.
+Our Future
+As we look to the future, we aim to continue innovating and expanding, keeping the needs of our loyal customers at the center of everything we do. We're excited to introduce new products and explore new markets, while staying true to our core principles of quality, comfort, and style.
+
+</p>
+        </div>
+        <div class="div2">
+            <video src="tshirt.mp4" style="width: 530px;" controls></video>
+        </div>
+    </div>
+    
+    
+    
+    <h2 style="font-family: cursive;">Here are some of our services</h2>
+    <div class="container2">
+        <div class="div4">
+            <p>Brand new shirts</p>
+            <img src="newtshirt.png" alt="Brand new shirts" style="width: 80px;">
+        </div>
+        <div class="div5">
+            <p>Accept old shirts</p>
+            <img src="oldtshirt.jpg" alt="Accept old shirts" style="width: 80px;">
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <div class="container3">
+        <div class="div6">
+            <p>Home delivery</p>
+            <img src="delivery.png" alt="Home delivery" style="width: 80px;">
+        </div>
+        <div class="div7">
+            <p>International delivery</p>
+            <img src="intdelivery.png" alt="International delivery" style="width: 80px;">
+        </div>
+    </div>
+
+    <hr>
+    
+    <footer>
+        <h3>Connect with us</h3>
+       <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a> 
+       <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a> 
+       <a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a> 
+        <!-- <img src="facebook.png" alt="Facebook">
+        <img src="twitter.png" alt="Twitter"> -->
+    </footer>
+</body>
+</html>
